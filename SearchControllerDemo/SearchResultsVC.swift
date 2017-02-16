@@ -26,6 +26,7 @@ class SearchResultsVC: UITableViewController, UISearchResultsUpdating {
         super.viewDidLoad()
         print(#function)
         
+        tableView.keyboardDismissMode = .onDrag
         tableView.tableFooterView = UIView()
     }
     

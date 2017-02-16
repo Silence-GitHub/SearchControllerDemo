@@ -25,6 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         tableView.dataSource = self
         view.addSubview(tableView)
         tableView.tableHeaderView = searchController.searchBar;
+        tableView.tableFooterView = UIView()
         
         definesPresentationContext = true;
     }
