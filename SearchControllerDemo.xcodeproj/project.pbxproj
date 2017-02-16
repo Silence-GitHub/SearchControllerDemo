@@ -12,6 +12,7 @@
 		4AAE4D1F1E53097600732B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE4D1D1E53097600732B3B /* Main.storyboard */; };
 		4AAE4D211E53097600732B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE4D201E53097600732B3B /* Assets.xcassets */; };
 		4AAE4D241E53097600732B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE4D221E53097600732B3B /* LaunchScreen.storyboard */; };
+		4AAE4D2C1E5309D900732B3B /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE4D2B1E5309D900732B3B /* SearchResultsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4AAE4D201E53097600732B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AAE4D231E53097600732B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AAE4D251E53097600732B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAE4D2B1E5309D900732B3B /* SearchResultsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4AAE4D191E53097600732B3B /* AppDelegate.swift */,
 				4AAE4D1B1E53097600732B3B /* ViewController.swift */,
+				4AAE4D2B1E5309D900732B3B /* SearchResultsVC.swift */,
 				4AAE4D1D1E53097600732B3B /* Main.storyboard */,
 				4AAE4D201E53097600732B3B /* Assets.xcassets */,
 				4AAE4D221E53097600732B3B /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AAE4D2C1E5309D900732B3B /* SearchResultsVC.swift in Sources */,
 				4AAE4D1C1E53097600732B3B /* ViewController.swift in Sources */,
 				4AAE4D1A1E53097600732B3B /* AppDelegate.swift in Sources */,
 			);
@@ -260,7 +264,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SearchControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kaibo.SearchControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +279,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SearchControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kaibo.SearchControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +309,7 @@
 				4AAE4D2A1E53097600732B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
