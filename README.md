@@ -1,6 +1,6 @@
 # SearchControllerDemo
 
-iOS UISearchController demo
+iOS UISearchController demo.
 
 Blog: http://www.cnblogs.com/silence-cnblogs/p/6405545.html
 
